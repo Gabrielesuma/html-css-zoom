@@ -41,6 +41,14 @@ main{
     align-content: center;
 }
 
+.column{
+    flex-direction: column;
+}
+
+.s-between{
+    justify-content: space-between;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -70,6 +78,16 @@ header>div{
 #tool-bar{
     background-color: #1a1a1a;
     height: 70px;
+}
+
+.green{
+    color: green;
+}
+
+.end{
+    background-color: lightgray;
+    color: red;
+    padding: 26px;
 }
 
 .card{
